@@ -1,0 +1,21 @@
+#include <stdio.h>
+ int main()
+ {
+ int BYTES;
+ float KB, MB, GB;
+ printf(" NISARG PATEL \n");
+ printf(" Enter AMOUNT in BYTES : ");
+ scanf("%d", &BYTES);
+ // Step 1: Bytes to KB
+ KB = BYTES / 1024.0;
+ printf("STEP 1:\n : KB = BYTES / 1024\n");
+ printf("KB = %f\n\n", KB);
+ // Step 2: KB to MB
+ MB = KB / 1024.0;
+ printf("STEP 2:\n : MB = KB / 1024\n");
+ printf("MB = %f\n\n", MB);
+ // Step 3: MB to GB
+ GB = MB / 1024.0;
+ printf("STEP 3:\n : GB = MB / 1024\n");
+ printf("GB = %f\n", GB);
+ }
