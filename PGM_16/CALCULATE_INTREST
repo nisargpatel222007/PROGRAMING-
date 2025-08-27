@@ -1,0 +1,12 @@
+#include <stdio.h>
+ int main()
+ {
+ float PRINCIPAL,RATE,TIME,INTEREST;
+ printf(" NISARG PATEL \n");
+ printf(" Enter PRINCIPAL AMOUNT :\n ");
+ printf(" Enter RATE OF INTEREST :\n ");
+ printf(" Enter DURATION OF TIME :\n ");
+ scanf("%f%f%f", &PRINCIPAL,&TIME,&RATE);
+ INTEREST=(PRINCIPAL*RATE*TIME)/100.00;
+ printf("INTEREST=%f\n",INTEREST);
+ }
