@@ -1,0 +1,10 @@
+#include <stdio.h>
+ int main()
+ {
+ int GRAMS,KILOGRAMS;
+ printf( " NISARG PATEL \n" );
+ printf( " Enter AMOUNT inn KILOGRAMS : " );
+ scanf("%d", &KILOGRAMS);
+ GRAMS = KILOGRAMS *1000;
+ printf ( "GRAMS = %d\n ",GRAMS);
+ }
