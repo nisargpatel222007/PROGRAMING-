@@ -1,0 +1,16 @@
+ #include <stdio.h>
+ int main()
+ {
+ float a, b, c_divison,c_multiply,c_addition,c_subtract;
+ printf( " NISARG PATEL \n" );
+ printf( " Enter two numbers: " );
+ scanf("%f %f", &a, &b);
+ c_divison = a / b;
+ printf("quotient = %f\n", c_divison);
+ c_multiply=a*b;
+ printf("product = %f\n", c_multiply);
+ c_addition=a+b;
+ printf("sum = %f\n", c_addition);
+ c_subtract=a-b;
+ printf("subtract = %f\n", c_subtract);
+ }
