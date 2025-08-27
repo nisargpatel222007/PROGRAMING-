@@ -1,0 +1,13 @@
+ #include <stdio.h>
+ int main()
+ {
+ float LENGTH,BREADTH,AREA,PERIMETER;
+ printf(" NISARG PATEL \n \n");
+ printf(" Enter LENGTH :\n ");
+ printf(" Enter BREADTH :\n ");
+ scanf("%f%f",&LENGTH,&BREADTH);
+ AREA=BREADTH*LENGTH;
+ printf("AREA=%f\n",AREA);
+ PERIMETER=2*(LENGTH+BREADTH);
+ printf("PERIMETER=%f\n",PERIMETER);
+ }
