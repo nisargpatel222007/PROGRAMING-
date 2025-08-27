@@ -1,0 +1,10 @@
+#include <stdio.h>
+ int main()
+ {
+ float RADIUS,AREA;
+ printf(" NISARG PATEL \n \n");
+ printf(" Enter RADIUS :\n ");
+ scanf("%f",&RADIUS);
+ AREA=RADIUS*RADIUS*3.14;
+ printf("AREA=%f\n",AREA);
+ }
