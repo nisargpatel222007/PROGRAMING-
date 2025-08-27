@@ -1,0 +1,10 @@
+ #include <stdio.h>
+ int main()
+ {
+ float CELSIUS,FARENHEIT;
+ printf(" NISARG PATEL \n");
+ printf(" Enter TEMPERATURE in CELSIUS : ");
+ scanf("%f", &CELSIUS);
+ FARENHEIT=((9.0/5.0)*CELSIUS)+32;
+ printf("FARENHEIT=%f\n",FARENHEIT);
+ }
