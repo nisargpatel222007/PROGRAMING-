@@ -2,6 +2,10 @@
 
 📄 **[Open Assignment PDF](./PATEL%20NISARG_25BCL116_C_Assignment1.pdf)**
 
+git add PATEL_NISARG_25BCL116_C_Assignment1.pdf
+git commit -m "Add assignment PDF"
+git push origin main
+
 📑 Table of Contents
 
 Project Overview
