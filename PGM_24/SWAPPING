@@ -1,0 +1,12 @@
+#include <stdio.h>
+ int main() {
+ int x, y, temp;
+ printf("Enter value of X: ");
+ printf("Enter value of Y: ");
+ scanf("%d%d",&x,&y);
+ printf("Before (original): X = %d, Y = %d\n", x, y);
+ temp = x;
+ x = y;
+ y = temp;
+ printf("After SWAPPING : X = %d, Y = %d\n", x, y);
+ }
