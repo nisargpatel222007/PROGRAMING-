@@ -1,5 +1,6 @@
 📘 C Programming Assignment – 24 Programs
 
+📄 **[Open Assignment PDF](./PATEL_NISARG_25BCL116_C_Assignment1.pdf)**
 
 📑 Table of Contents
 
