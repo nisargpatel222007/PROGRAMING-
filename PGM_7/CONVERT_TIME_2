@@ -1,0 +1,14 @@
+ #include <stdio.h>
+ int main()
+ {
+ float hour,minutes;
+ int h,m;
+ printf( " NISARG PATEL \n" );
+ printf( " Enter time inn MINUTES : " );
+ scanf("%f", &minutes);
+ hour = minutes / 60;
+ printf ( "hour = %.2f\n ",hour );
+ h = (int)(minutes / 60);
+ m = (int)minutes % 60;
+ printf(": %d hours and %d minutes\n", h, m);
+ }
