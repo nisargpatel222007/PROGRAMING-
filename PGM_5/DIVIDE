@@ -1,0 +1,10 @@
+ #include <stdio.h>
+ int main()
+ {
+ float a, b, c_divison;
+ printf( " NISARG PATEL \n" );
+ printf( " Enter two numbers: " );
+ scanf("%f %f", &a, &b);
+ c_divison = a / b;
+ printf("quotient = %f\n", c_divison);
+ }
