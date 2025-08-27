@@ -1,0 +1,11 @@
+ #include <stdio.h>
+ int main()
+ {
+ float HEIGHT,LENGTH,AREA;
+ printf(" NISARG PATEL \n \n");
+ printf(" Enter HEIGHT :\n ");
+ printf(" Enter LENGTH :\n ");
+ scanf("%f%f",&HEIGHT,&LENGTH);
+ AREA=(HEIGHT*LENGTH)/2.0;
+ printf("AREA=%f\n",AREA);
+ }
