@@ -4,15 +4,10 @@
 📑 Table of Contents
 
 Project Overview
-
 Folder Structure
-
 Program List
-
 How to Run
-
 Learning Outcomes
-
 Author
 
 
@@ -20,6 +15,7 @@ Author
 
 This repository contains 24 C programs developed as part of my  Assignment.
 The programs cover a wide range of basic to intermediate C programming concepts, designed to build a strong foundation in problem-solving and programming logic.
+
 
 ## 📋 Program List
 
@@ -56,11 +52,8 @@ The programs cover a wide range of basic to intermediate C programming concepts,
 🎯 Learning Outcomes
 
 Gained hands-on experience in C programming
-
 Practiced arithmetic, conversions, and logical programs
-
 Learned to organize multiple programs in a structured project
-
 Improved problem-solving and debugging skills
 
 
