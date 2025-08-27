@@ -1,0 +1,10 @@
+#include <stdio.h>
+ int main()
+ {
+ float DOLLAR,RUPEES;
+ printf( " NISARG PATEL \n" );
+ printf( " Enter MONEY inn RUPEES : " );
+ scanf("%f", &RUPEES);
+ DOLLAR = RUPEES /48;
+ printf ( "DOLLAR = %.2f\n ",DOLLAR );
+ }
