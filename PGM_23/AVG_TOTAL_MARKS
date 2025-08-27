@@ -1,0 +1,14 @@
+#include <stdio.h>
+ int main()
+ {
+ int AVERAGE,TOTAL,SUBJECT_1,SUBJECT_2,SUBJECT_3;
+ printf(" NISARG PATEL \n \n");
+ printf(" Enter SUBJECT_1 MARKS :\n ");
+ printf(" Enter SUBJECT_2 MARKS :\n ");
+ printf(" Enter SUBJECT_3 MARKS :\n ");
+ scanf("%d%d%d",&SUBJECT_1,&SUBJECT_2,&SUBJECT_3);
+ AVERAGE=(SUBJECT_1+SUBJECT_2+SUBJECT_3)/3;
+ printf("AVERAGE=%d\n",AVERAGE);
+ TOTAL=(SUBJECT_1+SUBJECT_2+SUBJECT_3);
+ printf("TOTAL=%d\n",TOTAL);
+ }
