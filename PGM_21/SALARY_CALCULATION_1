@@ -1,0 +1,14 @@
+#include <stdio.h>
+ int main()
+ {
+ float NET_SALARY,GROSS_SALARY,ALLOWANCE,DEDUCTION;
+ printf(" NISARG PATEL \n \n");
+ printf(" Enter AMOUNT OF SALARY (GROSS) :\n ");
+ printf("
+ ALLOWANCES WILL BE 10% :\n ");
+ printf("
+ DEDUCTION WILL BE 3% :\n ");
+ scanf("%f",&GROSS_SALARY);
+ NET_SALARY=(GROSS_SALARY+(GROSS_SALARY*0.1)-(GROSS_SALARY*0.03));
+ printf("NET_SALARY=%f\n",NET_SALARY);
+ }
