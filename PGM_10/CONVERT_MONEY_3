@@ -1,0 +1,12 @@
+ #include <stdio.h>
+ int main()
+ {
+ float DOLLAR,POUNDS,RUPEES;
+ printf( " NISARG PATEL \n" );
+ printf( " Enter MONEY inn DOLLAR : " );
+ scanf("%f", &DOLLAR);
+ RUPEES = DOLLAR *48;
+ printf ( "RUPEES = %.2f\n ",RUPEES );
+ POUNDS = RUPEES/70;
+ printf ( "POUNDS = %.3f\n ",POUNDS );
+ }
