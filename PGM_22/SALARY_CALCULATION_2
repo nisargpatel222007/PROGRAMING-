@@ -1,0 +1,12 @@
+#include <stdio.h>
+ int main()
+ {
+ float NET_SALES,GROSS_SALES,DISCOUNT;
+ printf(" NISARG PATEL \n \n");
+ printf(" Enter AMOUNT OF SALES (GROSS) :\n ");
+ printf("
+ DISCOUNT WILL BE 10% :\n ");
+ scanf("%f",&GROSS_SALES);
+ NET_SALES=(GROSS_SALES-(GROSS_SALES*0.10));
+ printf("NET_SALES=%f\n",NET_SALES);
+ }
